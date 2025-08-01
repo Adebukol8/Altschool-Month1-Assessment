@@ -44,4 +44,4 @@ It covers:
 - Updated IAM policy to give **Describe** permisions for VPC components
 
 ##📄IAM Policy
-[See iam-policy.json](./iam-policy. json.txt)
+[See iam-policy.json](./iam-policy.json.txt)
