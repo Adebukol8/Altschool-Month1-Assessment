@@ -32,11 +32,16 @@ It covers:
    - App Subnet `10.0.2.0/24`
    - DB Subnet `10.0.3.0/28`
 
--Created and attached **Internet Gateway**.
--Configured **Route Tables**:
+- Created and attached **Internet Gateway**.
+- Configured **Route Tables**:
  -  Public subnet route table ➡️Routes to Internet Gateway (0.0.0.0/0).
  -  App and DB route tables ➡️ No internet routes (fully private).  
 
--Created  **Security Groups**:
+- Created  **Security Groups**:
   - `cloudlaunch-app-sg` ➡️ Allows HTTP (port 80) only within VPC.
   - `cloudlaunch-db-sg` ➡️ Allows MySQL (port 3306) access **from app subnet only**.
+
+- Updated IAM policy to give **Describe** permisions for VPC components
+
+##📄IAM Policy
+[See iam-policy.json](./iam-policy.json)
