@@ -22,6 +22,6 @@ It covers:
 
 -Enabled **CloudFront distirbution** for HTTPS and global caching  
 - 🔗 **S3 Website URL:** [Visit Site](http://cloudlaunch-site-bucket01.s3-website-eu-west-1.amazonaws.com/)  
-- 🔗 **CloudFront URL:** [Visit via CloudFront] (https://d3tlbzfxua5xg7.cloudfront.net/)  
+- 🔗 **CloudFront URL:**[Visit via CloudFront](https://d3tlbzfxua5xg7.cloudfront.net/)  
 
 
