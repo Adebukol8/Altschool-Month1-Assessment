@@ -1,2 +1,13 @@
-# Altschool-Month1-Assessment
-Product Concept: CloudLaunch – Mini Cloud Environment on AWS. This project covers static site hosting on S3 with CloudFront for HTTPS, strict IAM policies for secure S3 access, and a VPC design with public, app, and database subnets, route tables, and security groups for a future application setup
+#  Product Concept:CloudLaunch Altschool-Month1-Assessment
+
+This project demonstrates AWS fundamentals by setting up a **mini cloud environment** for a product called **CloudLaunch**.  
+
+It covers:
+✅ Hosting a static website on Amazon S3 with CloudFronts for HTTPS and caching
+✅ Implementing strict IAM policies for secure s3 access
+✅ Designing a custom VPC with public, application, and database subnets
+
+----
+## 📌 Task 1 - Static Website Hosting (S3 + IAM)
+-Created **3 S3 buckets**:
+
