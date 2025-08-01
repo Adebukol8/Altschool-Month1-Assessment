@@ -45,3 +45,13 @@ It covers:
 
 ##📄IAM Policy
 [See iam-policy.json](./iam-policy.json)
+
+## 📂 Repository Structure
+```
+Altschool-month1-Assessment/
+├── assets/ # Images and CSS for the static website
+├── index.html # Static website homepage
+├── screenshots/ # Screenshots of S3, VPC, CloudFront, IAM
+├── iam-policy.json # IAM policy attached to cloudlaunch-user
+└── README.md # Project documentation
+```
