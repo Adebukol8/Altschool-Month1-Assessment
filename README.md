@@ -22,6 +22,21 @@ It covers:
 
 -Enabled **CloudFront distirbution** for HTTPS and global caching  
 - 🔗 **S3 Website URL:** [Visit Site](http://cloudlaunch-site-bucket01.s3-website-eu-west-1.amazonaws.com/)  
-- 🔗 **CloudFront URL:**[Visit via CloudFront](https://d3tlbzfxua5xg7.cloudfront.net/)  
+- 🔗 **CloudFront URL:**[Visit via CloudFront](https://d3tlbzfxua5xg7.cloudfront.net/)
 
+---
+## 📌 Task 2 - VPC Design
+- Created a **VPC (cloudlaunch-vpc)** with CIDR block `10.0.0.0/16`.
+- Created **3 subnets**
+   - Public Subnet `10.0.1.0./24`
+   - App Subnet `10.0.2.0/24`
+   - DB Subnet `10.0.3.0/28`
 
+-Created and attached **Internet Gateway**.
+-Configured **Route Tables**:
+ -  Public subnet route table ➡️Routes to Internet Gateway (0.0.0.0/0).
+ -  App and DB route tables ➡️ No internet routes (fully private).  
+
+-Created  **Security Groups**:
+  - `cloudlaunch-app-sg` ➡️ Allows HTTP (port 80) only within VPC.
+  - `cloudlaunch-db-sg` ➡️ Allows MySQL (port 3306) access **from app subnet only**.
