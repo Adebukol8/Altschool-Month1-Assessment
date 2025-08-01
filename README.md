@@ -55,3 +55,20 @@ Altschool-month1-Assessment/
 ├── iam-policy.json # IAM policy attached to cloudlaunch-user
 └── README.md # Project documentation
 ```
+## 📸 Screenshots
+| S3 Buckets | VPC Resource Map | CloudFront | IAM Policy | IAM User |
+|------------|------------------|------------|------------|----------|
+| ![S3](./screenshots/s3-buckets.png) | ![VPC](./screenshots/vpc-resource-map.png) | ![CF](./screenshots/cloud-front.png) | ![Policy](./screenshots/iam-policy.png) | ![User](./screenshots/iam-user.png) |
+
+---
+
+## 🛠️ AWS Services Used
+- **Amazon S3** – Hosts a static website and private storage  
+- **Amazon CloudFront** – Provides HTTPS, global caching and faster content     delivery  
+- **AWS IAM** –Manage user access with strict least-privilege policies  
+- **Amazon VPC** – Creates a custom network with public, app and subnets, route tables, and security groups  
+
+---
+
+
+Bukola Oni – AltSchool Cloud Engineering Student 🚀
