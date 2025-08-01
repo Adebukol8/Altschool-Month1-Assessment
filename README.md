@@ -56,6 +56,7 @@ Altschool-month1-Assessment/
 └── README.md # Project documentation
 ```
 ## 📸 Screenshots
+Below are key resources created during the assignment:
 | S3 Buckets | VPC Resource Map | CloudFront | IAM Policy | IAM User |
 |------------|------------------|------------|------------|----------|
 | ![S3](./screenshots/s3-buckets.png) | ![VPC](./screenshots/vpc-resource-map.png) | ![CF](./screenshots/cloud-front.png) | ![Policy](./screenshots/iam-policy.png) | ![User](./screenshots/iam-user.png) |
